@@ -3,10 +3,10 @@
 ## Screenshots
 
 ### Login Page
-![Login Page](HOME.png)
+![Home Page](HOME.png)
 
 ### Home Page
-![Home Page](PASS.png)
+![Pass](PASS.png)
 
 ### Result Page
-![Result Page](FAIL.png)
+![Fail](FAIL.png)
