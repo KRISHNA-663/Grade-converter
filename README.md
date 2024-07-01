@@ -2,11 +2,11 @@
 
 ## Screenshots
 
-### Login Page
+### Home Page
 ![Home Page](HOME.png)
 
-### Home Page
+### Pass 
 ![Pass](PASS.png)
 
-### Result Page
+### Fail
 ![Fail](FAIL.png)
