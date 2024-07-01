@@ -1,0 +1,164 @@
+body {
+  background: url('library.jpg') no-repeat center center fixed; /* Add your image URL here */
+  background-size: cover; /* This will make sure the image covers the whole background */
+  font-size: 12px;
+}
+
+body, button, input {
+  font-family: 'Righteous', cursive;
+  font-weight: 700;
+  letter-spacing: 1.4px;
+}
+
+.background {
+  display: flex;
+  min-height: 100vh;
+}
+
+.container {
+  flex: 0 1 700px;
+  margin: auto;
+  padding: 10px;
+}
+
+.screen {
+  position: relative;
+  background: rgba(255, 255, 255, 0.8); /* Adding a slight white background with opacity for readability */
+  border-radius: 15px;
+}
+
+.screen:after {
+  content: '';
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 20px;
+  right: 20px;
+  bottom: 0;
+  border-radius: 15px;
+  box-shadow: 0 20px 40px black;
+  z-index: -1;
+}
+
+.screen-body {
+  display: flex;
+}
+
+.screen-body-item {
+  flex: 1;
+  padding: 50px;
+}
+
+.screen-body-item.left {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+}
+
+.app-title {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  color: #185adb;
+  font-size: 26px;
+  text-transform: uppercase;
+  border-left: 4px solid #185adb;
+  padding: 10px;
+}
+
+.app-form-group {
+  margin-bottom: 15px;
+}
+
+.app-form-group.buttons {
+  margin-bottom: 0;
+  text-align: right;
+}
+
+.app-form-control {
+  width: 100%;
+  padding: 10px 0;
+  background: none;
+  border: none;
+  border-bottom: 1px solid #666;
+  color: black;
+  font-size: 14px;
+  text-transform: uppercase;
+  outline: none;
+  transition: border-color .2s;
+}
+
+.app-form-control::placeholder {
+  color: black;
+}
+
+.app-form-control:focus {
+  border-bottom-color: black;
+}
+
+.app-form-button {
+  padding: 10px;
+  background: none;
+  border: none;
+  border-radius: 20px;
+  background-color: #185adb;
+  color: white;
+  font-size: 14px;
+  cursor: pointer;
+  outline: none;
+  text-transform: uppercase;
+}
+
+.app-form-button:hover {
+  color: #185adb;
+}
+
+.showdata {
+  text-align: center;
+  color: black;
+  font-size: 1.2rem;
+  padding-top: -10px;
+  padding-bottom: 10px;
+}
+
+#result {
+  text-align: center;
+  font-size: 1.4rem;
+  padding-top: -10px;
+  padding-bottom: 10px;
+}
+
+/* Glowing text animation */
+.glow {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #100f0f;
+  text-align: center;
+  animation: glow 1s ease-in-out infinite alternate;
+}
+.glowi {
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #100f0f;
+  text-align: center;
+  animation: glowi 1s ease-in-out infinite alternate;
+}
+
+@keyframes glow {
+  0% {
+      text-shadow: 0 0 10px #f7f3f7, 0 0 20px #ffffff, 0 0 30px #f0edf0, 0 0 40px #e9dfe9, 0 0 50px #fcf1fc, 0 0 60px #ede8ed, 0 0 70px #ede8ed;
+  }
+  100% {
+      text-shadow: 0 0 20px #00ff00, 0 0 30px #00ff00, 0 0 40px #00ff00, 0 0 50px #00ff00, 0 0 60px #00ff00, 0 0 70px #00ff00, 0 0 80px #00ff00;
+  }
+}
+
+@keyframes glowi {
+  0% {
+      text-shadow: 0 0 10px #f7f3f7, 0 0 20px #ffffff, 0 0 30px #f0edf0, 0 0 40px #e9dfe9, 0 0 50px #fcf1fc, 0 0 60px #ede8ed, 0 0 70px #ede8ed;
+  }
+  100% {
+      text-shadow: 0 0 20px #f81f07, 0 0 30px #f81f07, 0 0 40px #f81f07, 0 0 50px #f81f07, 0 0 60px #f81f07, 0 0 70px #f81f07, 0 0 80px #f81f07;
+  }
+}
