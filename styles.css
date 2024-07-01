@@ -1,6 +1,6 @@
 body {
-  background: url('library.jpg') no-repeat center center fixed; /* Add your image URL here */
-  background-size: cover; /* This will make sure the image covers the whole background */
+  background: url('library.jpg') no-repeat center center fixed; 
+  background-size: cover; 
   font-size: 12px;
 }
 
@@ -23,7 +23,7 @@ body, button, input {
 
 .screen {
   position: relative;
-  background: rgba(255, 255, 255, 0.8); /* Adding a slight white background with opacity for readability */
+  background: rgba(255, 255, 255, 0.8); 
   border-radius: 15px;
 }
 
@@ -121,15 +121,12 @@ body, button, input {
   padding-top: -10px;
   padding-bottom: 10px;
 }
-
 #result {
   text-align: center;
   font-size: 1.4rem;
   padding-top: -10px;
   padding-bottom: 10px;
 }
-
-/* Glowing text animation */
 .glow {
   font-size: 1.6rem;
   font-weight: bold;
